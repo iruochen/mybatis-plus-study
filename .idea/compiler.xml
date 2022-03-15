@@ -11,5 +11,8 @@
         <module name="mybatis-plus-simple" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="mp-springboot" target="8" />
+    </bytecodeTargetLevel>
   </component>
 </project>
