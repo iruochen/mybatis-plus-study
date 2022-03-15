@@ -33,6 +33,7 @@
                     <bean
                             class="com.baomidou.mybatisplus.core.config.GlobalConfig$DbConfig">
                         <property name="idType" value="AUTO"/>
+                        <property name="tablePrefix" value="tb_"/>
                     </bean>
                 </property>
             </bean>
